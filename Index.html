@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Baking Business</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #f8c18f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #3e2c1c;
+        }
+        nav {
+            background-color: #3e2c1c;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #f8c18f;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        section h2 {
+            color: #3e2c1c;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #3e2c1c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #f8c18f;
+            color: #3e2c1c;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #3e2c1c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Delights Bakery</h1>
+        <p>Freshly baked goods made with love!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Delicious Delights Bakery!</h2>
+        <p>We specialize in making the finest cakes, pastries, and other baked goods. Every bite is a treat!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned bakery passionate about creating delicious baked goods for all occasions. From weddings to birthdays, we bring the sweetness to your special moments.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Cakes</h3>
+                <p>Custom cakes for birthdays, weddings, and other celebrations. Choose from a variety of flavors and designs!</p>
+            </div>
+            <div class="service-item">
+                <h3>Pastries</h3>
+                <p>Freshly baked pastries, including croissants, muffins, and more, perfect for breakfast or an afternoon treat.</p>
+            </div>
+            <div class="service-item">
+                <h3>Cookies</h3>
+                <p>Soft and chewy cookies with different flavors – chocolate chip, oatmeal raisin, and more!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Delights Bakery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
